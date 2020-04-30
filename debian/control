@@ -1,0 +1,12 @@
+Source: ros-verystable-python-cmake-module
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-python-cmake-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-dev, ros-verystable-ros-workspace
+Description: Provide CMake module with extra functionality for Python.
